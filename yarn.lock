@@ -146,7 +146,7 @@
   resolved "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.0.4.tgz"
   integrity sha512-XblONe153h0O2zuFfTAbQYAX2JhYmDHeWikp1LM9Hul9gVPjFY427k6dFEcOL72O01QxQsWi761svJ/ev9xEDg==
 
-"@mantine/core@7.16.1":
+"@mantine/core@^7.16.1", "@mantine/core@>=7.0.0":
   version "7.16.1"
   resolved "https://registry.npmjs.org/@mantine/core/-/core-7.16.1.tgz"
   integrity sha512-HYdjCeMU3dUJbc1CrAAedeAASTG5kVyL/qsiuYh5b7BoG0qsRtK8WJxBpUjW6VqtJpUaE94c5tlBJ8MgAmPHTQ==
@@ -158,10 +158,15 @@
     react-textarea-autosize "8.5.6"
     type-fest "^4.27.0"
 
-"@mantine/hooks@7.16.1":
+"@mantine/hooks@^7.16.1", "@mantine/hooks@>=7.0.0", "@mantine/hooks@7.16.1":
   version "7.16.1"
   resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.16.1.tgz"
   integrity sha512-+hER8E4d2ByfQ/DKIXGM3Euxb7IH5ArSjzzzoF21sG095iXIryOCob22ZanrmiXCoAzKKdxqgVj4Di67ikLYSQ==
+
+"@mantinex/mantine-logo@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@mantinex/mantine-logo/-/mantine-logo-1.1.0.tgz"
+  integrity sha512-POR8TKKl7p1uq4nl/DxH3wBW7ShTVEEkzZ9RUkTbwjfuHR/skjaK2to8aETkxmpl/u2vQyxb325WwDKe5Xby5A==
 
 "@next/env@15.1.5":
   version "15.1.5"
@@ -227,6 +232,18 @@
   integrity sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==
   dependencies:
     tslib "^2.8.0"
+
+"@tabler/icons-react@^3.28.1":
+  version "3.28.1"
+  resolved "https://registry.npmjs.org/@tabler/icons-react/-/icons-react-3.28.1.tgz"
+  integrity sha512-KNBpA2kbxr3/2YK5swt7b/kd/xpDP1FHYZCxDFIw54tX8slELRFEf95VMxsccQHZeIcUbdoojmUUuYSbt/sM5Q==
+  dependencies:
+    "@tabler/icons" "3.28.1"
+
+"@tabler/icons@3.28.1":
+  version "3.28.1"
+  resolved "https://registry.npmjs.org/@tabler/icons/-/icons-3.28.1.tgz"
+  integrity sha512-h7nqKEvFooLtFxhMOC1/2eiV+KRXhBUuDUUJrJlt6Ft6tuMw2eU/9GLQgrTk41DNmIEzp/LI83K9J9UUU8YBYQ==
 
 "@types/estree@^1.0.6":
   version "1.0.6"
@@ -1999,7 +2016,7 @@ react-textarea-autosize@8.5.6:
     use-composed-ref "^1.3.0"
     use-latest "^1.2.1"
 
-"react@^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc", "react@^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "react@^18.x || ^19.x", react@^19.0.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0", react@>=16.8.0, react@19.0.0:
+"react@^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc", "react@^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "react@^18.x || ^19.x", react@^19.0.0, "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0", react@>=16.8.0, react@19.0.0:
   version "19.0.0"
   resolved "https://registry.npmjs.org/react/-/react-19.0.0.tgz"
   integrity sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==
